@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CRUD Android</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_age">Enter age</string>
+    <string name="enter_salary">Enter salary</string>
+    <string name="save_data">Save Data</string>
+    <string name="firebase_kotlin">Firebase Kotlin</string>
+    <string name="insert_data">insert Data</string>
+    <string name="fetch_data">Fetch Data</string>
+    <string name="emp_name">Emp Name</string>
+    <string name="loading_data">Loading Data.....</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="emp_id">Emp id</string>
+    <string name="emp_name_detail">Emp Name</string>
+    <string name="emp_age_detail">Emp Age</string>
+    <string name="emp_salary_detail">Emp Salary</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="employee_age">Employee Age</string>
+    <string name="employee_salary">Employee Salary</string>
+    <string name="update_data">Update Data</string>
+</resources>

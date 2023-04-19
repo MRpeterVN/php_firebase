@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bcgprofile"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edtTenSp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="#504949"
+        android:hint="nhap ten san pham"
+        android:inputType="textPersonName"
+        android:paddingTop="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/edtLoaiSp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="#504949"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:hint="nhap loai san pham"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edtGiaSp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="#504949"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:hint="nhap gia san pham"
+        android:inputType="textPersonName"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/update_data" />
+</LinearLayout>

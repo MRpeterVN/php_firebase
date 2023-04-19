@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "874393824875",
+    "firebase_url": "https://crud-exam-80ef1-default-rtdb.firebaseio.com",
+    "project_id": "crud-exam-80ef1",
+    "storage_bucket": "crud-exam-80ef1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874393824875:android:407c1902dfe7c4cb524b2e",
+        "android_client_info": {
+          "package_name": "com.example.btbs_tuan9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874393824875-eq60r3g3q3181vk0d72h137q7dnk9uag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9pHcoUAzORtA534bVGcpVbQEzwsExB9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874393824875-eq60r3g3q3181vk0d72h137q7dnk9uag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874393824875:android:9d742c0aafceef4d524b2e",
+        "android_client_info": {
+          "package_name": "com.masuwes.firebasecrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874393824875-eq60r3g3q3181vk0d72h137q7dnk9uag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9pHcoUAzORtA534bVGcpVbQEzwsExB9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874393824875-eq60r3g3q3181vk0d72h137q7dnk9uag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874393824875:android:bef23f03de75b3a5524b2e",
+        "android_client_info": {
+          "package_name": "com.tauhidizzan.crudfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874393824875-eq60r3g3q3181vk0d72h137q7dnk9uag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9pHcoUAzORtA534bVGcpVbQEzwsExB9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874393824875-eq60r3g3q3181vk0d72h137q7dnk9uag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcgprofile"
+    tools:context=".InsertionActivity">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="404dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/layoutButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edtTenSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:background="#1B1A1A"
+            android:hint="nhập tên sản phẩm"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#DFCCCC"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtLoaiSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:background="#1B1A1A"
+            android:hint="nhập loại sản phẩm"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtGiaSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:background="#1B1A1A"
+            android:hint="nhập giá sản phẩm"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButton"
+        android:layout_width="389dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="-100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top">
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:text="chọn ảnh sản phẩm" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="89dp"
+        android:text="@string/save_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
